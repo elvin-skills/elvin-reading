@@ -5,7 +5,7 @@
 ## 1. Skill 与命名
 
 1. Skill 文件夹与 frontmatter 名称为 `elvin-reading`。
-2. 对外主入口为 `/elvin-reading`，Codex 兼容入口为 `$elvin-reading`，UI 名称为 `Elvin-reading`。
+2. 用户入口统一为 `/elvin-reading`，UI 名称为 `Elvin-reading`。
 3. 方法名称统一使用 `A+100`。
 4. Skill 源文件中不存在旧名称、旧入口、旧脚本名或旧数据目录表述。
 5. `quick_validate.py` 返回通过。
@@ -104,7 +104,7 @@ python3 /path/to/skill-creator/scripts/quick_validate.py <skill目录>
 
 ## 8. 最小真实前向试验（约 8 分钟）
 
-1. 在第一次干净会话中调用 `/elvin-reading`，导入含 3～5 句的材料 A；另在 Codex 中确认 `$elvin-reading` 仍可触发。
+1. 在第一次干净会话中调用 `/elvin-reading`，导入含 3～5 句的材料 A。
 2. 分别提出一个词汇问题、一个语法问题和一个暂时没有答案的问题；确认四个人类笔记文件已生成，且只收到一次入口通知。
 3. 对其中一个解释先反馈“没懂”，再明确确认新的解释已经理解；检查策略发生变化，首次记录没有提前写成 resolved。
 4. 保存阅读位置并关闭会话。

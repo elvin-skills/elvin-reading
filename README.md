@@ -54,8 +54,6 @@ npx -y skills add elvin-skills/elvin-reading -g
 使用 /elvin-reading 陪我阅读这份英文材料。
 ```
 
-在 Codex 中也可以使用 `$elvin-reading` 显式调用。
-
 你只需要阅读和自然提问。遇到不懂的单词、短语、语法或句子时，选中或复制原文直接询问即可。
 
 ## 本地数据与隐私
