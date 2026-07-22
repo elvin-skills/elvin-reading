@@ -1,5 +1,7 @@
 # Elvin-reading
 
+[![skills.sh](https://skills.sh/b/elvin-skills/elvin-reading)](https://skills.sh/elvin-skills/elvin-reading)
+
 Elvin-reading 是一个面向真实英文材料的自适应阅读 Skill。它让 Codex、Claude Code 等本地 Agent 陪使用者持续阅读 PDF、Word、EPUB、HTML、Markdown 或纯文本，并把真实答疑沉淀为可跨材料调用的词汇、语法、问题与理解笔记。
 
 ## 它能做什么
@@ -23,19 +25,19 @@ Elvin-reading 是一个面向真实英文材料的自适应阅读 Skill。它让
 Codex：
 
 ```bash
-npx skills add yinkrismile7-beep/elvin-reading --skill elvin-reading --agent codex --global --yes
+npx skills add elvin-skills/elvin-reading --skill elvin-reading --agent codex --global --yes
 ```
 
 Claude Code：
 
 ```bash
-npx skills add yinkrismile7-beep/elvin-reading --skill elvin-reading --agent claude-code --global --yes
+npx skills add elvin-skills/elvin-reading --skill elvin-reading --agent claude-code --global --yes
 ```
 
 也可以让 Agent 执行：
 
 ```text
-请从 https://github.com/yinkrismile7-beep/elvin-reading 安装 elvin-reading Skill。
+请从 https://github.com/elvin-skills/elvin-reading 安装 elvin-reading Skill。
 ```
 
 ## 开始使用
