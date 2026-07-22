@@ -22,16 +22,16 @@ Elvin-reading 是一个面向真实英文材料的自适应阅读 Skill。它让
 
 ## 一键安装
 
-Codex：
+适用于 Codex、Claude Code、Cursor、OpenCode 及其他支持 Agent Skills 的客户端：
 
 ```bash
-npx skills add elvin-skills/elvin-reading --skill elvin-reading --agent codex --global --yes
+npx -y skills add elvin-skills/elvin-reading -g --all
 ```
 
-Claude Code：
+这条命令会把 `elvin-reading` 全局安装到该安装器支持的所有 Agent。若只想选择部分 Agent，使用：
 
 ```bash
-npx skills add elvin-skills/elvin-reading --skill elvin-reading --agent claude-code --global --yes
+npx -y skills add elvin-skills/elvin-reading -g
 ```
 
 也可以让 Agent 执行：
