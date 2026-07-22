@@ -369,7 +369,7 @@ def update_reading_state(project: Path, state: dict) -> None:
 
 ## 使用方式
 
-在任意 Agent 中输入 `$elvin-reading` 开始或继续。阅读时直接提交划线原文和自然问题；状态、反馈与记忆由 Agent 在后台更新。
+在 Agent 中输入 `/elvin-reading` 开始或继续；使用 Codex 时也可输入 `$elvin-reading`。阅读时直接提交划线原文和自然问题；状态、反馈与记忆由 Agent 在后台更新。
 
 > 本页由程序生成。逐条阅读记忆保存在 `02-events/` 与 `03-memory/`，请勿在本页手工维护。
 """
