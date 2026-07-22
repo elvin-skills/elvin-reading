@@ -45,13 +45,13 @@ npx -y skills add elvin-skills/elvin-reading -g
 安装后，在新对话中输入：
 
 ```text
-$elvin-reading
+/elvin-reading
 ```
 
 或直接把材料交给 Agent：
 
 ```text
-使用 $elvin-reading 陪我阅读这份英文材料。
+使用 /elvin-reading 陪我阅读这份英文材料。
 ```
 
 你只需要阅读和自然提问。遇到不懂的单词、短语、语法或句子时，选中或复制原文直接询问即可。

@@ -1,4 +1,4 @@
 interface:
   display_name: "Elvin-reading"
   short_description: "陪你完成 A+100 阅读，并让旧理解持续帮助新材料"
-  default_prompt: "使用 $elvin-reading 陪我开始或继续阅读这份英文材料，并根据我的反馈调整解释方式。"
+  default_prompt: "使用 /elvin-reading 陪我开始或继续阅读这份英文材料，并根据我的反馈调整解释方式。"
