@@ -20,25 +20,29 @@ Elvin-reading 是一个面向真实英文材料的自适应阅读 Skill。它让
 - Agent 具备本地文件读写和运行命令的能力。
 - 读取 PDF 时，系统最好装有 `pdftotext`、PyMuPDF 或 pypdf；扫描版 PDF 还需要 OCR 工具。
 
-## 一键安装
+## 一条命令安装或更新两个 Skill
 
 适用于 Codex、Claude Code、Cursor、OpenCode 及其他支持 Agent Skills 的客户端：
 
 ```bash
-npx -y skills add elvin-skills/elvin-reading -g --all
+npx -y skills add elvin-skills/english -g --all
 ```
 
-这条命令会把 `elvin-reading` 全局安装到该安装器支持的所有 Agent。若只想选择部分 Agent，使用：
+这条命令会同时安装 `elvin-reading` 和 `elvin-vocab`。以后再次执行同一条命令，会覆盖更新两个 Skill。
+
+若只想安装 Elvin-reading：
 
 ```bash
-npx -y skills add elvin-skills/elvin-reading -g
+npx -y skills add elvin-skills/english -g --skill elvin-reading -y
 ```
 
 也可以让 Agent 执行：
 
 ```text
-请从 https://github.com/elvin-skills/elvin-reading 安装 elvin-reading Skill。
+请从 https://github.com/elvin-skills/english 安装全部英语学习 Skills。
 ```
+
+原来的 `elvin-skills/elvin-reading` 独立仓库和安装方式继续保留，已有用户不需要迁移。
 
 ## 开始使用
 
